@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TG OP</title>
+    <style>
+        .navbar {
+            background-color: rgb(119, 114, 114);
+            color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .center {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .temp {
+            display: block;
+
+        }
+
+        .form-group {
+            margin: 20px 1px;
+            padding: 10px 4px;
+        }
+
+        .btn {
+            color: white;
+            background-color: #d0acac;
+            border-radius: 33px;
+            border: 2px solid black;
+            margin: 16px;
+            padding: 15px;
+            width: 14%;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+        .form-group label{
+            margin: 2px 2pxx;
+        }
+        .form-group input {
+            width: 13%;
+            border-radius: 20px;
+            padding: 18px 18px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>TG ka Project</h1>
+    </nav>
+    <section class="input">
+        <div class="temp center">
+            <h1>Temprature Limit</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="max-temp">Maximum Temprature</label>
+                    <input type="number" id="max-temp" placeholder="Enter the Maximum Temprature">
+                </div>
+                <div class="form-group">
+                    <label for="min-temp">Minimum Temprature</label>
+                    <input type="number" id="min-temp" placeholder="Enter the Minimum Temprature">
+                </div>
+                <button type="submit" class="btn">Set</button>
+            </form>
+        </div>
+        <div class="hum center">
+            <h1>Humidity Limit</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="max-hum">Maximum Humidity</label>
+                    <input type="number" id="max-hum" placeholder="Enter the Maximum Humidity">
+                </div>
+                <div class="form-group">
+                    <label for="min-hum">Minimum Humidity</label>
+                    <input type="number" id="min-hum" placeholder="Enter the Minimum Humidity">
+                </div>
+                <button type="submit" class="btn">Set</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
