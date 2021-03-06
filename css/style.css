@@ -83,7 +83,7 @@ html{
     position: absolute; 
     top: 0px;
     left: 0px;
-    height: 567px;
+    height: 640px;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -190,6 +190,8 @@ html{
     border-radius: 30px;
     font-size: 1.1rem;
 }
+
+
 footer{
     background-color: black;
     color: white;

@@ -43,7 +43,13 @@
     /* padding: 23px; */
 }
 /* Contact Us */
-
+#contact-box form {
+    width: 95%;
+}
+/* #conatct-box label{
+    width: 100%;
+    font-size: 0.8rem;
+} */
 /* Utility */
 .h-primary{
     font-size: 2.3rem;
